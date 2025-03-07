@@ -103,7 +103,7 @@ font-size: 1rem;
  }
 
  .portfolio-item {
-    /* RESPONSAVEL PELA RESPONSIVIDADE */
+    /* RESPONSAVEL PELA FLUIDEZ */
     width: calc(100%-40px);
     max-width: 420px;
     /* ------------------------------ */
@@ -138,3 +138,19 @@ font-size: 1rem;
     gap: 20px;
 
 }
+
+@media(min-width: 576px){
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px){
+html {
+    font-size: 24px;
+}
+.portfolio-item {
+    width: 280px;
+}
+}
+
